@@ -6,5 +6,5 @@ Intro: ...
 
 Possible extensions:
 - Multi model
-- ..
+- Supervised learning
 - 

@@ -1,2 +1,10 @@
 # NDDL-predictive-coding
-Hallo world
+Team Parva:
+
+Intro: ...
+> 
+
+Possible extensions:
+- Multi model
+- ..
+- 

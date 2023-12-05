@@ -21,3 +21,8 @@ Intro:
 - Lateral processing between different modalities
 - Non-symmetrical weights (as in neural generative coding)
 - Implement probability distribution (Rao & Ballard -> FEP)
+
+
+## Multi-Model Datasets:
+- https://ai.meta.com/blog/ai-self-supervised-learning-data2vec/
+- https://github.com/drmuskangarg/Multimodal-datasets

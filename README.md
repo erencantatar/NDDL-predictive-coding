@@ -28,5 +28,5 @@ Intro:
 
 
 ## Multi-Model Datasets:
-- https://ai.meta.com/blog/ai-self-supervised-learning-data2vec/
+- https://johnarevalo.github.io/2015/02/18/multimodal-datasets.html
 - https://github.com/drmuskangarg/Multimodal-datasets

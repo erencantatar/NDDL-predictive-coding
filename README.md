@@ -2,7 +2,11 @@
 Team Parva:
 
 Intro: 
-> Predictive coding  
+> Predictive coding
+
+
+![image info](./predcode_scheme-02.jpg)
+
 
 
 ## Todo list:

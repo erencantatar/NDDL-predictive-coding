@@ -156,8 +156,10 @@ class Network():
             self.reset_rates()
             
         I = np.array(image).reshape([-1])
-        self.layers[0].r = I 
         self.layers[0].x = I 
+        self.layers[0].r = self.activation(self.layers[0].x)
+        # self.layers[0].r = I 
+        
         for i in range(self.n_iter_inference):
             self.inference_step()         
         return

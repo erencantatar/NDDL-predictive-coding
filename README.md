@@ -30,3 +30,15 @@ Intro:
 ## Multi-Model Datasets:
 - https://johnarevalo.github.io/2015/02/18/multimodal-datasets.html
 - https://github.com/drmuskangarg/Multimodal-datasets
+
+## To do biologically plausible projects
+- vind een 1 speaker die consistent is. (~500 files)
+- hyperparameters voor spectogram (fft, mels, etc)
+- check filter functie, blijven alle nummers evenveel gerepresenteerd? (distributie van labels maken die eruit worden gehaald bv)
+- corrupt files eruit halen in het geval dat die er zijn
+- check dimensies van spectogrammen voor inputlaag model
+- nummer van output units? (400 van output layers unimodals, 400 eerste laag multimodal en 10 tweede laag multimodal (of 625, 400, 10))
+- trainen (plot MSE), inference, reconstructen (print r van alle lagen), crossmodality.
+- Hoe berekenen we de MSE voor reconstruction na sensor drop out? (average pakken en dan de reconstruction vergelijken met average?)
+- supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).
+- reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt. 

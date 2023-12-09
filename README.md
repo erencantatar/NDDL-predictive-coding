@@ -38,6 +38,7 @@ Intro:
 - [x] corrupt files eruit halen in het geval dat die er zijn
 - [x] check dimensies van spectogrammen voor inputlaag model
 - [x] Make same amount of visual and audio data for each category
+- [ ] kijk naar Parva's new_model.py voor de extra line
 - [ ] make extra layer for labels for supervised training (i.e., clamping a label)
 - [ ] nummer van output units? (400 van output layers unimodals, 400 eerste laag multimodal en 10 tweede laag multimodal (of 625, 400, 10))
 - [ ] trainen (plot MSE), inference, reconstructen (print r van alle lagen), crossmodality.

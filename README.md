@@ -32,8 +32,8 @@ Intro:
 - https://github.com/drmuskangarg/Multimodal-datasets
 
 ## To do biologically plausible projects
-- vind een 1 speaker die consistent is. (~500 files)
-- hyperparameters voor spectogram (fft, mels, etc)
+- [] vind een 1 speaker die consistent is. (~500 files)
+- [x] hyperparameters voor spectogram (fft, mels, etc)
 - check filter functie, blijven alle nummers evenveel gerepresenteerd? (distributie van labels maken die eruit worden gehaald bv)
 - corrupt files eruit halen in het geval dat die er zijn
 - check dimensies van spectogrammen voor inputlaag model

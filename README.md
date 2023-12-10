@@ -44,4 +44,9 @@ Intro:
 - [ ] trainen (plot MSE), inference, reconstructen (print r van alle lagen), crossmodality.
 - [ ] Hoe berekenen we de MSE voor reconstruction na sensor drop out? (average pakken en dan de reconstruction vergelijken met average?)
 - [ ] supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).
-- [ ] reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt. 
+- [ ] reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt.
+
+## Questions for Parva
+- Why does the model not include top-down errors?
+- Why doesnt it work when we try to infer one modality based on the joint representation when we give an input image for instance? It seems like there is an average stored in the joint modality and nothing else is happening.
+

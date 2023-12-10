@@ -50,4 +50,4 @@ Intro:
 - Why does the model not include top-down errors?
 - Why doesnt it work when we try to infer one modality based on the joint representation when we give an input image for instance? It seems like there is an average stored in the joint modality and nothing else is happening.
 - Rutger: For creating receptive fields, can I also perform average pooling with a 2x2 or 3x3 grid size? Or do a kernel operation first and then perform the pooling?
-- Rutger: Shall I use zero padding when adding a convolutional layer? And do I only make the input convolutional or all layers or some?
+- Rutger: Shall I use zero padding when adding a convolutional layer? And do I only make the input convolutional or all layers or some? And what stride size would you recommend?

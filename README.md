@@ -40,14 +40,14 @@ Intro:
 - [x] Make same amount of visual and audio data for each category
 - [ ] kijk naar Parva's new_model.py voor de extra line
 - [ ] make extra layer for labels for supervised training (i.e., clamping a label)
-- [ ] nummer van output units? (400 van output layers unimodals, 400 eerste laag multimodal en 10 tweede laag multimodal (of 625, 400, 10))
 - [ ] trainen (plot MSE), inference, reconstructen (print r van alle lagen), crossmodality.
-- [ ] Hoe berekenen we de MSE voor reconstruction na sensor drop out? (average pakken en dan de reconstruction vergelijken met average?)
 - [ ] supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).
 - [ ] reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt.
 
 ## Questions for Parva
 - Why does the model not include top-down errors?
 - Why doesnt it work when we try to infer one modality based on the joint representation when we give an input image for instance? It seems like there is an average stored in the joint modality and nothing else is happening.
+- How many layers in the joint modality? We now have 625, 400, 10.
+- How do we calculate the MSE for reconstruction after sensor drop out, since we cannot compare any longer with a given input. Maybe compare the predicted input with the average of all inputs?
 - Rutger: For creating receptive fields, can I also perform average pooling with a 2x2 or 3x3 grid size? Or do a kernel operation first and then perform the pooling?
 - Rutger: Shall I use zero padding when adding a convolutional layer? And do I only make the input convolutional or all layers or some? And what stride size would you recommend?

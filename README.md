@@ -38,7 +38,7 @@ Intro:
 - [x] corrupt files eruit halen in het geval dat die er zijn
 - [x] check dimensies van spectogrammen voor inputlaag model
 - [x] Make same amount of visual and audio data for each category
-- [ ] kijk naar Parva's new_model.py voor de extra line
+- [x] kijk naar Parva's new_model.py voor de extra line
 - [ ] make extra layer for labels for supervised training (i.e., clamping a label)
 - [ ] trainen (plot MSE), inference, reconstructen (print r van alle lagen), crossmodality.
 - [ ] supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).

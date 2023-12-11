@@ -44,10 +44,11 @@ Intro:
 - [ ] supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).
 - [ ] reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt.
 
+## Rutger
+- [ ] Implement Receptive Fields in the visual modality
+- [ ] Train the auditory modality in Network() to determine hyperparameters (network layers, n_nodes, epochs?)
+- [ ] Decrease layers in joint modality!
+
 ## Questions for Parva
 - Why does the model not include top-down errors?
-- Why doesnt it work when we try to infer one modality based on the joint representation when we give an input image for instance? It seems like there is an average stored in the joint modality and nothing else is happening.
-- How many layers in the joint modality? We now have 625, 400, 10.
 - How do we calculate the MSE for reconstruction after sensor drop out, since we cannot compare any longer with a given input. Maybe compare the predicted input with the average of all inputs?
-- Rutger: For creating receptive fields, can I also perform average pooling with a 2x2 or 3x3 grid size? Or do a kernel operation first and then perform the pooling?
-- Rutger: Shall I use zero padding when adding a convolutional layer? And do I only make the input convolutional or all layers or some? And what stride size would you recommend?

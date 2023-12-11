@@ -43,6 +43,7 @@ Intro:
 - [ ] trainen (plot MSE), inference, reconstructen (print r van alle lagen), crossmodality.
 - [ ] supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).
 - [ ] reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt.
+- [ ] Meer sprekers includeren voor dataset.
 
 ## Rutger
 - [ ] Implement Receptive Fields in the visual modality

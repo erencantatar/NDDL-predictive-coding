@@ -39,18 +39,16 @@ Intro:
 - [x] check dimensies van spectogrammen voor inputlaag model
 - [x] Make same amount of visual and audio data for each category
 - [x] kijk naar Parva's new_model.py voor de extra line
-- [ ] make extra layer for labels for supervised training (i.e., clamping a label)
-- [ ] trainen (plot MSE), inference, reconstructen (print r van alle lagen), crossmodality.
+- [x] trainen (plot MSE), inference, reconstructen (print r van alle lagen), crossmodality.
 - [ ] supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).
-- [ ] reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt.
-- [ ] Meer sprekers includeren voor dataset.
+- [x] reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt.
+- [x] Meer sprekers includeren voor dataset.
+- [x] Tune hyperparameters for both auditory and visual modality.
 - [ ] Sample size naar 2000 en omzetten naar 0, 1, 2.
-- [ ] Plots maken (diff, recon, avg)
+- [ ] Plots maken (diff, recon, avg).
 
 ## Rutger
 - [ ] Implement Receptive Fields in the visual modality
-- [ ] Train the auditory modality in Network() to determine hyperparameters (network layers, n_nodes, epochs?)
-- [ ] Decrease layers in joint modality!
 
 ## Questions for Parva
 - Why does the model not include top-down errors?

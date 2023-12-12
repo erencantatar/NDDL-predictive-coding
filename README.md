@@ -40,12 +40,13 @@ Intro:
 - [x] Make same amount of visual and audio data for each category
 - [x] kijk naar Parva's new_model.py voor de extra line
 - [x] trainen (plot MSE), inference, reconstructen (print r van alle lagen), crossmodality.
-- [ ] supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).
 - [x] reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt.
 - [x] Meer sprekers includeren voor dataset.
 - [x] Tune hyperparameters for both auditory and visual modality.
-- [ ] Sample size naar 2000 en omzetten naar 0, 1, 2.
-- [ ] Plots maken (diff, recon, avg).
+- [x] Plots maken (diff, recon, avg).
+- [ ] Plots mooier maken.
+- [ ] Classificatie
+- [ ] Supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).
 
 ## Rutger
 - [ ] Implement Receptive Fields in the visual modality

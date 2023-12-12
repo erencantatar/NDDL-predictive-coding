@@ -44,6 +44,8 @@ Intro:
 - [ ] supervised learning, bij training (clamped input (audio en visueel) en output (output unit voor bv de 1)).
 - [ ] reconstructie op basis van label van beiden modalities, en als je nog 1 sensor hebt.
 - [ ] Meer sprekers includeren voor dataset.
+- [ ] Sample size naar 2000 en omzetten naar 0, 1, 2.
+- [ ] Plots maken (diff, recon, avg)
 
 ## Rutger
 - [ ] Implement Receptive Fields in the visual modality

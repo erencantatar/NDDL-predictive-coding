@@ -52,5 +52,4 @@ Intro:
 - [ ] Implement Receptive Fields in the visual modality
 
 ## Questions for Parva
-- Why does the model not include top-down errors?
-- How do we calculate the MSE for reconstruction after sensor drop out, since we cannot compare any longer with a given input. Maybe compare the predicted input with the average of all inputs?
+- All answered!
